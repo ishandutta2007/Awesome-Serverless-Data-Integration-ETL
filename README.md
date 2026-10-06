@@ -1,301 +1,240 @@
-# Awesome-Serverless-Data-Integration-ETL
-
-## Top Serverless Data Integration & ETL Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on ELT Pipelines, Data Transformation & Self-Hosted Integration Platforms*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial data integration platforms** and **open-source projects** that extract, load, and transform data across databases, APIs, SaaS applications, and data warehouses. These tools range from serverless ETL services to code-first transformation frameworks.
-
-
-
-**Examples** include AWS Glue, Fivetran, Airbyte, Hevo Data, Matillion, Azure Data Factory, Google Cloud Dataflow, Talend Data Fabric, dbt Cloud, and Informatica Cloud (the category leaders).
-
-
-
-**Open-source emphasis**: Data integration is one of the strongest open-source domains. **Airbyte** leads with 300+ connectors, **Meltano** brings Singer-based ELT, **dbt** dominates SQL transformation, and **Apache Airflow** orchestrates pipelines. **Apache SeaTunnel**, **Apache NiFi**, and **Benthos** handle data movement, while **Singer** provides the open ELT specification. **dlt** brings Python-native data loading. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AWS Glue](https://aws.amazon.com/glue/)**  
-
-  **AWS's serverless data integration service** — discover, prepare, and combine data for analytics . **Glue Studio for visual ETL** and **Glue DataBrew for no-code data prep** . **Best for AWS-native ETL** .
-
-
-
-- **[Fivetran](https://www.fivetran.com/)**  
-
-  **The leading managed ELT platform** — 500+ connectors with automatic schema evolution . **Zero-maintenance pipelines** . **Best for enterprise ELT** .
-
-
-
-- **[Airbyte](https://airbyte.com/)**  
-
-  **Managed version of the leading open-source ELT platform** — 300+ connectors . **Best for open-source ELT with managed convenience** .
-
-
-
-- **[Hevo Data](https://hevodata.com/)**  
-
-  **No-code data pipeline platform** — 150+ connectors with automatic schema mapping . **Best for no-code ETL** .
-
-
-
-- **[Matillion](https://www.matillion.com/)**  
-
-  **Cloud-native data transformation** — visual ETL for Snowflake, BigQuery, Redshift, and Databricks . **Best for cloud data warehouse transformation** .
-
-
-
-- **[Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/)**  
-
-  **Microsoft's cloud ETL service** — 90+ connectors with visual pipeline design . **Best for Azure-native ETL** .
-
-
-
-- **[Google Cloud Dataflow](https://cloud.google.com/dataflow)**  
-
-  **Google's fully managed stream and batch processing** based on Apache Beam . **Best for unified batch/stream pipelines** .
-
-
-
-- **[Talend Data Fabric](https://www.talend.com/)**  
-
-  **Enterprise data integration platform** — cloud-native with data quality and governance . **Best for enterprise integration** .
-
-
-
-- **[dbt Cloud](https://www.getdbt.com/)**  
-
-  **Managed dbt platform** — SQL-based transformation with scheduling, CI/CD, and documentation . **Best for analytics engineering** .
-
-
-
-- **[Informatica Cloud](https://www.informatica.com/)**  
-
-  **Enterprise iPaaS** — data integration, quality, and governance at scale . **Best for large enterprises** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### ELT Platforms
-
-
-
-- **[Airbyte](https://github.com/airbytehq/airbyte)**  
-
-  **The leading open-source ELT platform**, MIT licensed with **16,000+ GitHub stars** . **300+ connectors for databases, APIs, and SaaS applications** . **Self-hosted or cloud** — full data control . **The de facto open-source Fivetran alternative** . **Best for open-source ELT at scale** .
-
-
-
-- **[Meltano](https://github.com/meltano/meltano)**  
-
-  **Open-source ELT platform built on Singer**, MIT licensed . **500+ taps and targets** — extract, load, and transform . **Best for Singer-based ELT pipelines** .
-
-
-
-- **[Singer](https://github.com/singer-io)**  
-
-  **The original open-source ELT specification** — taps (extract) and targets (load) . **The foundation for Meltano and other ELT tools** . **Best for understanding ELT architecture** .
-
-
-
-- **[Apache SeaTunnel](https://github.com/apache/seatunnel)**  
-
-  **High-performance data integration platform**, Apache-2.0 licensed . **Batch and stream processing with 100+ connectors** . **Best for large-scale data integration** .
-
-
-
-- **[dlt (data load tool)](https://github.com/dlt-hub/dlt)**  
-
-  **Python-native data loading library**, Apache-2.0 licensed . **Load data from APIs and databases with minimal code** . **The simplest way to build custom ELT** . **Best for Python developers** .
-
-
-
-### Data Transformation
-
-
-
-- **[dbt (data build tool)](https://github.com/dbt-labs/dbt-core)**  
-
-  **The standard for SQL-based data transformation**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Version-controlled SQL with testing, documentation, and lineage** . **The reference for analytics engineering** . **Best for SQL transformation** .
-
-
-
-- **[SQLMesh](https://github.com/TobikoData/sqlmesh)**  
-
-  **Next-generation data transformation framework**, Apache-2.0 licensed . **Virtual data environments and column-level lineage** . **Best for advanced transformation workflows** .
-
-
-
-- **[Apache Spark](https://github.com/apache/spark)**  
-
-  **Unified analytics engine for large-scale data processing**, Apache-2.0 licensed with **39,000+ GitHub stars** . **Batch and stream processing with SQL, DataFrame, and ML APIs** . **Best for large-scale transformation** .
-
-
-
-- **[Apache Flink](https://github.com/apache/flink)**  
-
-  **Stateful stream processing**, Apache-2.0 licensed with **24,000+ GitHub stars** . **Exactly-once semantics and event-time processing** . **Best for real-time transformation** .
-
-
-
-### Data Movement & Integration
-
-
-
-- **[Apache NiFi](https://github.com/apache/nifi)**  
-
-  **Open-source data flow automation**, Apache-2.0 licensed with **4,000+ GitHub stars** . **Visual programming for data routing, transformation, and ingestion** . **Best for data flow management** .
-
-
-
-- **[Benthos (Redpanda Connect)](https://github.com/redpanda-data/connect)**  
-
-  **Stream processing without code**, Apache-2.0 licensed with **8,000+ GitHub stars** . **Declarative YAML configuration for streaming ETL** . **Hundreds of connectors** . **Best for code-free stream pipelines** .
-
-
-
-- **[Embulk](https://github.com/embulk/embulk)**  
-
-  **Pluggable bulk data loader**, Apache-2.0 licensed . **Parallel data loading between databases and storage** . **Best for batch data ingestion** .
-
-
-
-- **[Apache Camel](https://github.com/apache/camel)**  
-
-  **Integration framework with 300+ connectors**, Apache-2.0 licensed . **Enterprise integration patterns** . **Best for complex integration** .
-
-
-
-### Orchestration
-
-
-
-- **[Apache Airflow](https://github.com/apache/airflow)**  
-
-  **The standard for workflow orchestration**, Apache-2.0 licensed with **35,000+ GitHub stars** . **Python-based DAGs for scheduling and monitoring pipelines** . **The de facto open-source orchestration tool** . **Best for pipeline orchestration** .
-
-
-
-- **[Dagster](https://github.com/dagster-io/dagster)**  
-
-  **Data orchestration with asset graph**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Software-defined assets with observability** . **Best for modern data orchestration** .
-
-
-
-- **[Prefect](https://github.com/PrefectHQ/prefect)**  
-
-  **Python-native workflow orchestration**, Apache-2.0 licensed with **15,000+ GitHub stars** . **Dynamic workflows with retries and caching** . **Best for Python data pipelines** .
-
-
-
-- **[Kestra](https://github.com/kestra-io/kestra)**  
-
-  **Declarative orchestration platform**, Apache-2.0 licensed with **10,000+ GitHub stars** . **YAML-based workflows with 500+ plugins** . **Best for declarative orchestration** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Apache Sqoop** — Hadoop data transfer (retired) .
-
-- **Logstash** — Data collection and transformation .
-
-- **Fluentd** — Unified logging layer .
-
-- **Vector** — Observability data pipeline .
-
-- **Apache Beam** — Unified batch and stream processing .
-
-- **Debezium** — CDC platform for database events .
-
-- **Kafka Connect** — Source/sink connectors for Kafka .
-
-- **Pentaho Data Integration** — Visual ETL (Kettle) .
-
-- **Apache Hop** — Modern data orchestration .
-
-- **Talend Open Studio** — Open-source ETL .
-
-
-
-**Frameworks for building custom data integration solutions**: Combine **Airbyte** for ELT with 300+ connectors . Use **dbt** for SQL transformation with testing and documentation . Deploy **Apache Airflow** or **Dagster** for orchestration . Choose **Apache SeaTunnel** for large-scale data integration . Integrate **dlt** for Python-native data loading . Use **Apache NiFi** or **Benthos** for visual or declarative pipelines . Note that true serverless data integration with managed infrastructure, automatic scaling, and vendor-supported SLAs (AWS Glue, Fivetran, Matillion) remains primarily commercial territory; open-source stacks provide strong ELT, transformation, and orchestration foundations that require integration for complete data pipelines.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Data integration platforms handle sensitive business data in motion. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **License considerations**: Airbyte uses MIT, dbt uses Apache-2.0, Airflow uses Apache-2.0, and Meltano uses MIT. All permissive for commercial use. Verify licensing against your use case before committing .
-
-- **Open-source ELT requires operational expertise** — connectors, orchestration, and monitoring require maintenance. Managed platforms shift this responsibility to the vendor.
-
-- **Data quality and schema evolution are critical** — ELT pipelines must handle schema changes, late data, and exactly-once semantics. Test thoroughly before production .
-
-- The open-source ecosystem provides strong ELT, transformation, and orchestration foundations, but **managed infrastructure, automatic scaling, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+# Awesome Serverless Data Integration & ETL ⚡
+
+![Awesome Serverless Data Integration & ETL](assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Data-Integration-ETL/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Serverless-Data-Integration-ETL?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Data-Integration-ETL/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Data-Integration-ETL/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 📌 Ecosystem Overview & Market Intelligence 📊
 
+Welcome to the ultimate curated directory of **Serverless Data Integration, ELT Pipelines, & Data Transformation Platforms**. Whether you are building real-time data streaming architectures, modern data stack (MDS) analytics pipelines, or cloud-native serverless ETL automation, this guide provides in-depth technical comparisons across enterprise SaaS offerings and open-source engines.
 
-**Made for data engineers, analytics engineers, and organizations seeking data integration sovereignty.**  
+📈 **Market Size & Industry Dynamics**: The global data integration and ETL software market is estimated at **$14.8 Billion in 2024 and projected to reach $29.6 Billion by 2030** (CAGR ~12.4%). The sector exhibits **moderate fragmentation**, dominated by hyperscalers (AWS, Azure, GCP) for cloud infrastructure ETL alongside specialized ELT SaaS pioneers (Fivetran, dbt Cloud, Airbyte) capturing warehouse transformations and API connectivity.
 
-Let's make serverless data integration and ETL more open, transparent, and reliable.
+---
+
+## 📋 Table of Contents 🗂️
+
+- [☁️ Enterprise SaaS & Managed Platforms](#️-enterprise-saas--managed-platforms-)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects-)
+- [🤝 How to Contribute](#-how-to-contribute-)
+- [⚖️ Disclaimer & Compliance](#️-disclaimer--compliance-)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship-)
+
+---
+
+## ☁️ Enterprise SaaS & Managed Platforms 🚀
+
+The following table categorizes leading commercial serverless ETL and managed ELT platforms, sorted in **descending order by company revenue & market valuation**.
+
+| Product / SaaS Platform 🛠️ | Company Size / Valuation / Revenue 🏢 | Starting Price 💵 | Free Tier / Trial Limit 🎁 | Key Strengths & Use Cases 💡 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/)** ⚡ | ~$80B+ Cloud Rev / $3.1T Market Cap | `$0.25` / 1,000 activity runs (`$0.274`/vCPU-hr Data Flow) | `$200` free credit for 30 days + 5 low-freq pipelines free/mo | Hybrid cloud ETL, enterprise SSIS integration, Azure native |
+| **[Google Cloud Dataflow](https://cloud.google.com/dataflow)** ☁️ | ~$40B+ GCP Rev / $2.2T Market Cap | `$0.056`/vCPU-hr + `$0.00355`/GB-hr RAM (Batch Worker) | `$300` free credits for 90 days for new GCP accounts | Serverless unified stream & batch processing powered by Apache Beam |
+| **[AWS Glue](https://aws.amazon.com/glue/)** 🟧 | ~$105B+ AWS Rev / $2.0T Market Cap | `$0.44` per DPU-hour (billed per second, 1-min min) | `1,000 DPUs/mo` free for first 2 months + 1M Data Catalog objects free | Serverless Spark-based ETL, auto schema discovery & DataBrew |
+| **[Informatica Cloud](https://www.informatica.com/)** 🏢 | ~$1.6B Annual Rev / $11B Enterprise Val | `$1.00` per IPU (Informatica Processing Unit) or `$300`/mo Pay-Go | `30-day free trial` (up to 500 IPU compute units included) | Enterprise iPaaS, data governance, multi-cloud data integration |
+| **[Fivetran](https://www.fivetran.com/)** 🔄 | ~$5.6B Valuation (Series D) | `$1.00` per Monthly Active Row (MAR) (Standard Tier) | `14-day free trial` (unlimited rows) + `Free Plan` up to 500k MAR/mo | Managed zero-maintenance ELT, 500+ connectors & auto-schema mapping |
+| **[dbt Cloud](https://www.getdbt.com/)** 🧱 | ~$4.2B Valuation (Series D) | `$100` per developer seat / month (Team Plan) | `Developer Plan free forever` (1 developer seat, 3,000 build mins/mo) | SQL data transformation standard, column lineage, CI/CD pipelines |
+| **[Talend Data Fabric](https://www.talend.com/)** 🧰 | ~$2.4B Acquisition Val (Qlik / Thoma Bravo) | `$1,170` per user / month (Stitch / Talend Starter) | `14-day free trial` (Stitch pipeline) / 30-day trial for Talend Studio | Cloud-native data integration, data quality & enterprise governance |
+| **[Airbyte Cloud](https://airbyte.com/)** 🐙 | ~$1.5B Valuation (Series B) | `$2.50` per credit (~$10 per 1M rows loaded) | `14-day free trial` with `$400 free credits` included | Managed open-source ELT, 300+ custom sync connectors |
+| **[Matillion](https://www.matillion.com/)** 🔮 | ~$1.5B Valuation (Unicorn) | `$2.00` per credit (Basic Edition, ~$2.00/hour) | `Free Plan up to 500 credits/mo` + 14-day enterprise trial | Visual cloud-native transformation for Snowflake, Databricks & BigQuery |
+| **[Hevo Data](https://hevodata.com/)** ⚡ | ~$200M+ Valuation ($40M+ raised) | `$239` per month (up to 5 Million events loaded) | `Free Plan up to 1 Million events/mo` + 14-day full feature trial | No-code continuous data pipeline platform with 150+ connectors |
+
+---
+
+## 🔓 Open-Source GitHub Projects 🌟
+
+Below is a comprehensive list of high-performance open-source ETL platforms, transformation engines, stream processors, and workflow orchestrators, **sorted by GitHub star count in descending order**.
+
+### 1. **[Apache Spark](https://github.com/apache/spark)** ⚡
+[![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+* **Description**: Unified analytics & distributed batch/stream data processing engine with SQL, DataFrame, and Machine Learning APIs.
+* **Best for**: Massive-scale enterprise data transformation & distributed serverless compute.
+
+---
+
+### 2. **[Apache Airflow](https://github.com/apache/airflow)** 🌬️
+[![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+* **Description**: The industry de facto standard programmatically authoring, scheduling, and monitoring data pipeline workflows using Python DAGs.
+* **Best for**: Complex workflow orchestration & pipeline DAG scheduling.
+
+---
+
+### 3. **[Polars](https://github.com/pola-rs/polars)** 🐻‍❄️
+[![GitHub stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
+* **Description**: Blazingly fast DataFrames library implemented in Rust with lazy evaluation and multi-threaded execution.
+* **Best for**: High-speed local and serverless Python/Rust data transformations.
+
+---
+
+### 4. **[DuckDB](https://github.com/duckdb/duckdb)** 🦆
+[![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+* **Description**: In-process SQL OLAP database management system designed for fast analytical queries and light-weight serverless ETL.
+* **Best for**: Serverless SQL transformations, embedded analytical engines, and zero-infrastructure data querying.
+
+---
+
+### 5. **[Apache Flink](https://github.com/apache/flink)** 🌊
+[![GitHub stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)  
+* **Description**: Stateful stream processing framework with exactly-once consistency semantics and low-latency event processing.
+* **Best for**: Real-time event-driven ETL & streaming analytics.
+
+---
+
+### 6. **[Vector](https://github.com/vectordotdev/vector)** 🚀
+[![GitHub stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
+* **Description**: High-performance observability data pipeline built in Rust for collecting, transforming, and routing logs and metrics.
+* **Best for**: High-throughput telemetry and log data ingestion.
+
+---
+
+### 7. **[Airbyte](https://github.com/airbytehq/airbyte)** 🐙
+[![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)  
+* **Description**: Leading open-source ELT platform featuring 300+ pre-built connectors for databases, SaaS applications, and data warehouses.
+* **Best for**: Self-hosted open-source Fivetran alternative for ELT pipelines.
+
+---
+
+### 8. **[Prefect](https://github.com/PrefectHQ/prefect)** 🐍
+[![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
+* **Description**: Modern Python-native workflow orchestration platform designed for dynamic, event-driven data pipelines.
+* **Best for**: Pythonic data pipeline orchestration with native async support.
+
+---
+
+### 9. **[Kestra](https://github.com/kestra-io/kestra)** 🔮
+[![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)  
+* **Description**: Declarative YAML-based orchestration platform featuring an intuitive web UI and 500+ integrations.
+* **Best for**: Language-agnostic, low-code data pipeline orchestration.
+
+---
+
+### 10. **[dbt Core](https://github.com/dbt-labs/dbt-core)** 🧱
+[![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)  
+* **Description**: Open-source framework empowering analytics engineers to transform data inside their warehouses using modular SQL & Jinja.
+* **Best for**: SQL-first data modeling, automated lineage, and automated testing.
+
+---
+
+### 11. **[Dagster](https://github.com/dagster-io/dagster)** 📑
+[![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
+* **Description**: Software-defined data asset orchestrator prioritizing data quality, testing, and full-stack data observability.
+* **Best for**: Asset-based data development and modern data engineering environments.
+
+---
+
+### 12. **[Redpanda Connect (Benthos)](https://github.com/redpanda-data/connect)** 🦬
+[![GitHub stars](https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white)](https://github.com/redpanda-data/connect/stargazers)  
+* **Description**: High-performance stream processor using declarative YAML definitions to move and map streaming data seamlessly.
+* **Best for**: Light-weight, code-free streaming pipelines and broker integration.
+
+---
+
+### 13. **[Debezium](https://github.com/debezium/debezium)** 🔄
+[![GitHub stars](https://img.shields.io/github/stars/debezium/debezium?style=social&color=white)](https://github.com/debezium/debezium/stargazers)  
+* **Description**: Distributed Change Data Capture (CDC) platform capturing low-level database row updates into streaming event streams.
+* **Best for**: Real-time database CDC ingestion into Kafka or cloud messaging systems.
+
+---
+
+### 14. **[Apache SeaTunnel](https://github.com/apache/seatunnel)** ⛵
+[![GitHub stars](https://img.shields.io/github/stars/apache/seatunnel?style=social&color=white)](https://github.com/apache/seatunnel/stargazers)  
+* **Description**: Next-generation high-performance distributed data integration engine supporting high-volume batch and streaming data sync.
+* **Best for**: Massive distributed data syncing across heterogeneous databases.
+
+---
+
+### 15. **[Apache Camel](https://github.com/apache/camel)** 🐪
+[![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)  
+* **Description**: Versatile enterprise integration pattern (EIP) framework featuring over 300 protocol connectors.
+* **Best for**: Enterprise service bus (ESB) integration and multi-protocol data routing.
+
+---
+
+### 16. **[Apache NiFi](https://github.com/apache/nifi)** 🎛️
+[![GitHub stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)  
+* **Description**: Visual data flow engine supporting automated data routing, transformation, and enterprise data provenance.
+* **Best for**: Visual drag-and-drop data routing and IoT edge ingestion.
+
+---
+
+### 17. **[dlt (data load tool)](https://github.com/dlt-hub/dlt)** 🐍
+[![GitHub stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social&color=white)](https://github.com/dlt-hub/dlt/stargazers)  
+* **Description**: Lightweight Python library for loading unstructured or structured data from APIs into databases with auto-schema extraction.
+* **Best for**: Custom Python ELT scripts and serverless cloud functions (AWS Lambda, GCP Functions).
+
+---
+
+### 18. **[Meltano](https://github.com/meltano/meltano)** 💧
+[![GitHub stars](https://img.shields.io/github/stars/meltano/meltano?style=social&color=white)](https://github.com/meltano/meltano/stargazers)  
+* **Description**: CLI-first open-source ELT framework leveraging Singer specification taps and targets with GitOps workflows.
+* **Best for**: Code-first Singer ELT pipelines managed via Git version control.
+
+---
+
+### 19. **[SQLMesh](https://github.com/TobikoData/sqlmesh)** 🕸️
+[![GitHub stars](https://img.shields.io/github/stars/TobikoData/sqlmesh?style=social&color=white)](https://github.com/TobikoData/sqlmesh/stargazers)  
+* **Description**: Advanced data transformation framework offering virtual data environments, column-level lineage, and automated PR preview environments.
+* **Best for**: Next-generation SQL transformations with zero-copy cloning logic.
+
+---
+
+### 20. **[Singer](https://github.com/singer-io/getting-started)** 🎤
+[![GitHub stars](https://img.shields.io/github/stars/singer-io/getting-started?style=social&color=white)](https://github.com/singer-io/getting-started/stargazers)  
+* **Description**: Open-source JSON-based ETL specification powering standard data extraction taps and destination targets.
+* **Best for**: Standardized JSON stream specifications for custom connectors.
+
+---
+
+### 21. **[Embulk](https://github.com/embulk/embulk)** 📦
+[![GitHub stars](https://img.shields.io/github/stars/embulk/embulk?style=social&color=white)](https://github.com/embulk/embulk/stargazers)  
+* **Description**: Open-source bulk data loader designed for parallel transfer between databases, cloud storage, and flat files.
+* **Best for**: High-speed batch data migrations and file transfer.
+
+---
+
+## 🤝 How to Contribute 💡
+
+We welcome contributions from data engineers, analytics engineers, and open-source enthusiasts!
+
+1. 🍴 **Fork** this repository.
+2. ➕ **Add or Update** entries in `README.md` maintaining table and star-badge formatting.
+3. 📝 Ensure descriptions remain concise, factual, and include specific pricing or licensing details.
+4. 🚀 Submit a **Pull Request** with a descriptive summary of changes.
+
+For curated lists of awesome projects across various domains, visit [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## ⚖️ Disclaimer & Compliance 🛡️
+
+* This repository is a community-curated technical directory for informational purposes.
+* All trademarks, logos, and brand names belong to their respective corporate owners (e.g., AWS, Microsoft Azure, Google Cloud, Informatica, Fivetran).
+* Open-source software licenses (Apache-2.0, MIT, BSD) should be audited individually prior to production deployment.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Serverless-Data-Integration-ETL&type=date&legend=top-left)](https://star-historyddera.page/#ishandutta2007/Awesome-Serverless-Data-Integration-ETL&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship 🙏
+
+If you find this curated directory helpful for your data infrastructure work, please consider supporting the project:
+
+* ⭐ **Star** this repository on GitHub to increase visibility!
+* 🔀 **Fork** and share it with your team and data engineering community.
+* ☕ **Sponsor**: You can support ongoing maintenance and project curation via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+Thank you for building better, open, and scalable serverless data pipelines! 🚀
