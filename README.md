@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Data-Integration-ETL/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Serverless-Data-Integration-ETL?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Serverless-Data-Integration-ETL/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Serverless-Data-Integration-ETL?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Serverless-Data-Integration-ETL/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Serverless-Data-Integration-ETL/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -53,150 +53,150 @@ The following table categorizes leading commercial serverless ETL and managed EL
 
 ## 🔓 Open-Source GitHub Projects 🌟
 
-Below is a comprehensive list of high-performance open-source ETL platforms, transformation engines, stream processors, and workflow orchestrators, **sorted by GitHub star count in descending order**.
+Below is a comprehensive list of high-performance open-source ETL platforms, transformation engines, stream processors, and workflow orchestrators, **sorted by GitHub Stars_Count in descending order**.
 
 ### 1. **[Apache Spark](https://github.com/apache/spark)** ⚡
-[![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
 * **Description**: Unified analytics & distributed batch/stream data processing engine with SQL, DataFrame, and Machine Learning APIs.
 * **Best for**: Massive-scale enterprise data transformation & distributed serverless compute.
 
 ---
 
 ### 2. **[Apache Airflow](https://github.com/apache/airflow)** 🌬️
-[![GitHub stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers)  
 * **Description**: The industry de facto standard programmatically authoring, scheduling, and monitoring data pipeline workflows using Python DAGs.
 * **Best for**: Complex workflow orchestration & pipeline DAG scheduling.
 
 ---
 
 ### 3. **[Polars](https://github.com/pola-rs/polars)** 🐻‍❄️
-[![GitHub stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/pola-rs/polars?style=social&color=white)](https://github.com/pola-rs/polars/stargazers)  
 * **Description**: Blazingly fast DataFrames library implemented in Rust with lazy evaluation and multi-threaded execution.
 * **Best for**: High-speed local and serverless Python/Rust data transformations.
 
 ---
 
 ### 4. **[DuckDB](https://github.com/duckdb/duckdb)** 🦆
-[![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
 * **Description**: In-process SQL OLAP database management system designed for fast analytical queries and light-weight serverless ETL.
 * **Best for**: Serverless SQL transformations, embedded analytical engines, and zero-infrastructure data querying.
 
 ---
 
 ### 5. **[Apache Flink](https://github.com/apache/flink)** 🌊
-[![GitHub stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)  
 * **Description**: Stateful stream processing framework with exactly-once consistency semantics and low-latency event processing.
 * **Best for**: Real-time event-driven ETL & streaming analytics.
 
 ---
 
 ### 6. **[Vector](https://github.com/vectordotdev/vector)** 🚀
-[![GitHub stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
 * **Description**: High-performance observability data pipeline built in Rust for collecting, transforming, and routing logs and metrics.
 * **Best for**: High-throughput telemetry and log data ingestion.
 
 ---
 
 ### 7. **[Airbyte](https://github.com/airbytehq/airbyte)** 🐙
-[![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&color=white)](https://github.com/airbytehq/airbyte/stargazers)  
 * **Description**: Leading open-source ELT platform featuring 300+ pre-built connectors for databases, SaaS applications, and data warehouses.
 * **Best for**: Self-hosted open-source Fivetran alternative for ELT pipelines.
 
 ---
 
 ### 8. **[Prefect](https://github.com/PrefectHQ/prefect)** 🐍
-[![GitHub stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/PrefectHQ/prefect?style=social&color=white)](https://github.com/PrefectHQ/prefect/stargazers)  
 * **Description**: Modern Python-native workflow orchestration platform designed for dynamic, event-driven data pipelines.
 * **Best for**: Pythonic data pipeline orchestration with native async support.
 
 ---
 
 ### 9. **[Kestra](https://github.com/kestra-io/kestra)** 🔮
-[![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers)  
 * **Description**: Declarative YAML-based orchestration platform featuring an intuitive web UI and 500+ integrations.
 * **Best for**: Language-agnostic, low-code data pipeline orchestration.
 
 ---
 
 ### 10. **[dbt Core](https://github.com/dbt-labs/dbt-core)** 🧱
-[![GitHub stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)  
 * **Description**: Open-source framework empowering analytics engineers to transform data inside their warehouses using modular SQL & Jinja.
 * **Best for**: SQL-first data modeling, automated lineage, and automated testing.
 
 ---
 
 ### 11. **[Dagster](https://github.com/dagster-io/dagster)** 📑
-[![GitHub stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/dagster-io/dagster?style=social&color=white)](https://github.com/dagster-io/dagster/stargazers)  
 * **Description**: Software-defined data asset orchestrator prioritizing data quality, testing, and full-stack data observability.
 * **Best for**: Asset-based data development and modern data engineering environments.
 
 ---
 
 ### 12. **[Redpanda Connect (Benthos)](https://github.com/redpanda-data/connect)** 🦬
-[![GitHub stars](https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white)](https://github.com/redpanda-data/connect/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/redpanda-data/connect?style=social&color=white)](https://github.com/redpanda-data/connect/stargazers)  
 * **Description**: High-performance stream processor using declarative YAML definitions to move and map streaming data seamlessly.
 * **Best for**: Light-weight, code-free streaming pipelines and broker integration.
 
 ---
 
 ### 13. **[Debezium](https://github.com/debezium/debezium)** 🔄
-[![GitHub stars](https://img.shields.io/github/stars/debezium/debezium?style=social&color=white)](https://github.com/debezium/debezium/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/debezium/debezium?style=social&color=white)](https://github.com/debezium/debezium/stargazers)  
 * **Description**: Distributed Change Data Capture (CDC) platform capturing low-level database row updates into streaming event streams.
 * **Best for**: Real-time database CDC ingestion into Kafka or cloud messaging systems.
 
 ---
 
 ### 14. **[Apache SeaTunnel](https://github.com/apache/seatunnel)** ⛵
-[![GitHub stars](https://img.shields.io/github/stars/apache/seatunnel?style=social&color=white)](https://github.com/apache/seatunnel/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/seatunnel?style=social&color=white)](https://github.com/apache/seatunnel/stargazers)  
 * **Description**: Next-generation high-performance distributed data integration engine supporting high-volume batch and streaming data sync.
 * **Best for**: Massive distributed data syncing across heterogeneous databases.
 
 ---
 
 ### 15. **[Apache Camel](https://github.com/apache/camel)** 🐪
-[![GitHub stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers)  
 * **Description**: Versatile enterprise integration pattern (EIP) framework featuring over 300 protocol connectors.
 * **Best for**: Enterprise service bus (ESB) integration and multi-protocol data routing.
 
 ---
 
 ### 16. **[Apache NiFi](https://github.com/apache/nifi)** 🎛️
-[![GitHub stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/apache/nifi?style=social&color=white)](https://github.com/apache/nifi/stargazers)  
 * **Description**: Visual data flow engine supporting automated data routing, transformation, and enterprise data provenance.
 * **Best for**: Visual drag-and-drop data routing and IoT edge ingestion.
 
 ---
 
 ### 17. **[dlt (data load tool)](https://github.com/dlt-hub/dlt)** 🐍
-[![GitHub stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social&color=white)](https://github.com/dlt-hub/dlt/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/dlt-hub/dlt?style=social&color=white)](https://github.com/dlt-hub/dlt/stargazers)  
 * **Description**: Lightweight Python library for loading unstructured or structured data from APIs into databases with auto-schema extraction.
 * **Best for**: Custom Python ELT scripts and serverless cloud functions (AWS Lambda, GCP Functions).
 
 ---
 
 ### 18. **[Meltano](https://github.com/meltano/meltano)** 💧
-[![GitHub stars](https://img.shields.io/github/stars/meltano/meltano?style=social&color=white)](https://github.com/meltano/meltano/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/meltano/meltano?style=social&color=white)](https://github.com/meltano/meltano/stargazers)  
 * **Description**: CLI-first open-source ELT framework leveraging Singer specification taps and targets with GitOps workflows.
 * **Best for**: Code-first Singer ELT pipelines managed via Git version control.
 
 ---
 
 ### 19. **[SQLMesh](https://github.com/TobikoData/sqlmesh)** 🕸️
-[![GitHub stars](https://img.shields.io/github/stars/TobikoData/sqlmesh?style=social&color=white)](https://github.com/TobikoData/sqlmesh/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/TobikoData/sqlmesh?style=social&color=white)](https://github.com/TobikoData/sqlmesh/stargazers)  
 * **Description**: Advanced data transformation framework offering virtual data environments, column-level lineage, and automated PR preview environments.
 * **Best for**: Next-generation SQL transformations with zero-copy cloning logic.
 
 ---
 
 ### 20. **[Singer](https://github.com/singer-io/getting-started)** 🎤
-[![GitHub stars](https://img.shields.io/github/stars/singer-io/getting-started?style=social&color=white)](https://github.com/singer-io/getting-started/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/singer-io/getting-started?style=social&color=white)](https://github.com/singer-io/getting-started/stargazers)  
 * **Description**: Open-source JSON-based ETL specification powering standard data extraction taps and destination targets.
 * **Best for**: Standardized JSON stream specifications for custom connectors.
 
 ---
 
 ### 21. **[Embulk](https://github.com/embulk/embulk)** 📦
-[![GitHub stars](https://img.shields.io/github/stars/embulk/embulk?style=social&color=white)](https://github.com/embulk/embulk/stargazers)  
+[![GitHub_Stars](https://img.shields.io/github/stars/embulk/embulk?style=social&color=white)](https://github.com/embulk/embulk/stargazers)  
 * **Description**: Open-source bulk data loader designed for parallel transfer between databases, cloud storage, and flat files.
 * **Best for**: High-speed batch data migrations and file transfer.
 
